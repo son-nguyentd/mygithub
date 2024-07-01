@@ -1,0 +1,56 @@
+# Các file đối tượng, file tạm thời và các file biên dịch
+*.o
+*.i
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Các file nhật ký và file tạm thời của hệ điều hành
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Các file đầu ra của IDE
+*.dSYM/
+
+# Các thư mục build và các thư mục biên dịch
+/build/
+/bin/
+/obj/
+/out/
+
+# Các file dự án của IDE (tùy thuộc vào IDE bạn sử dụng)
+# Ví dụ với Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Ví dụ với Code::Blocks
+*.layout
+*.depend
+*.cbp
+*.workspace
+
+# Ví dụ với Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+project.xcworkspace
+*.xcuserstate
+
+# Các file của cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+
+# Makefile tự động sinh ra
+Makefile
